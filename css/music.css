@@ -13,6 +13,7 @@ body.lazyrabbit {
 .music-logo {
     width: 90%;
     max-width: 600px;
+    max-height: 70%;
 }
 
 .music-links {
@@ -22,24 +23,16 @@ body.lazyrabbit {
 .music-links .music-link {
     display: inline-block;
     padding: 0 20px;
-    width: 64px;
-    height: 64px;
+    width: 18%;
+    max-width: 64px;
     text-align: center;
+}
+
+.music-links .music-link .link-image {
+    width: 100%;
 }
 
 .music-links .music-link.disabled {
     opacity: 0.3;
     filter: alpha(opacity=40);
-}
-
-.corner-link {
-    display: block;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-}
-
-.corner-link-image {
-    width: 80px;
-    height: 80px;
 }
